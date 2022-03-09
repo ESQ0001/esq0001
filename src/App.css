@@ -1,7 +1,51 @@
 .App {
   text-align: center;
+  background: white;
+  width: 100%;
+  background-image: "url(../img/email-pattern.png)";
+ 
+}
+.quote{
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+}
+.quoteMedium{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1rem;
+}
+.title{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 8rem;
+}
+.num{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1rem;
+}
+.num2{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2rem;
+}
+.portfolio-title{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+}
+.hi{
+
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+.name{
+
+  font-family: 'Cookie', cursive;
+  font-size: 4rem;
 }
 
+.description{
+
+  font-family: 'Share Tech', sans-serif;
+  font-size: 2rem;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -152,12 +196,17 @@ address {
   font-style: normal;
   line-height: inherit;
 }
-
+li{
+  line-height:250%;
+}
 ol,
 
 ul,
 dl {
   margin-top: 0;
+
+
+
   margin-bottom: 1rem;
     text-align:left;
 
@@ -208,7 +257,9 @@ sup {
   top: -0.5em;
 }
 
+
 a {
+  
   color: #1abc9c;
   text-decoration: none;
   background-color: transparent;
@@ -532,6 +583,14 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  
+  height: auto;
+  /*width: 200 px;
+  height: 300 px;*/
+}
+
+.img-fluid2 {
+  max-width: 100%;
   height: auto;
   /*width: 200 px;
   height: 300 px;*/
@@ -606,10 +665,22 @@ pre code {
   overflow-y: scroll;
 }
 
-.container {
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container20 {
   width: 100%;
   padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-left: 10%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -632,12 +703,33 @@ pre code {
   .container {
     max-width: 1140px;
   }
+  .container11 {
+    width: 100%;
+    float:left;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.container-fluid2 {
+  width: 100%;
+  overflow:hidden;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3971,6 +4063,7 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: black;
 }
 
 .nav-link {
@@ -4050,6 +4143,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  color: #000;
 
 }
 .navbar .container,
@@ -4062,6 +4156,30 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+.toplogo {
+  margin-top: 5px;
+  
+}
+
+.profPic {
+  margin-top: 5px;
+  margin-right: auto;
+  float:left;
+  margin-left: 10%
+ 
+}
+.profPic img {
+  height : 80%;
+  width : 80%;
+  
+  float:left;
+}
+
+.toplogo img {
+  height : 30%;
+  width : 30%;
+  float:left;
 }
 .navbar-brand {
   display: inline-block;
@@ -6171,7 +6289,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: black !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10147,7 +10265,7 @@ h3 {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  background-color: black;
 }
 #mainNav .navbar-nav {
   margin-top: 0rem;
@@ -10162,7 +10280,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: black;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10188,7 +10306,7 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: black;
   }
 
   #mainNav.navbar-shrink {
@@ -10324,6 +10442,16 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
 }
 
+.footer1{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 .copyright {
   background-color: #1a252f;
 }
@@ -10336,8 +10464,9 @@ form .row:first-child .floating-label-form-group {
   transform: translateY(-50%);
 }
 .img11{
-  height:100%;
-  max-width: 100%;
+  height : 30%;
+  width : 30%;
+  margin-top: 5px;
 }
 
 /****************************************************************************/

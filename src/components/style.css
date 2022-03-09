@@ -1,0 +1,63 @@
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+    
+   
+   
+}
+.fill img {
+    flex-shrink: 0;
+    width: 105%;
+    
+   
+}
+
+.container120 {
+    padding-top: 50px;
+    width: 75%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+  .container12 {
+    
+    width: 100%;
+ 
+  margin-right: auto;
+  margin-left: auto;
+  background-color: grey;
+  }
+ 
+  .body {
+    background-color: rgb(78, 72, 72);
+    overflow: hidden;
+    border: 1px solid transparent;
+  }
+  .img-fluid {
+    max-width: 50%;
+    height: auto;
+    /*width: 200 px;
+    height: 300 px;*/
+  }
+  video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+  }
+
+  .vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .container21 {
+    position: relative;
+    min-height: 100vh;
+  }
